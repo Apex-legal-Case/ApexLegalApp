@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
   headerIconBox: {
     padding: 8,
     borderRadius: 8,
-    flex: 1,
+    flex: 0,
     marginBottom: 1,
     alignItems: "center",
     justifyContent: "center",

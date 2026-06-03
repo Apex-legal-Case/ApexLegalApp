@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
   orText: {
     marginHorizontal: 12,
     fontSize: 12,
-    color: COLORS.grayText,
+    color: "#334155",
     fontWeight: 400,
   },
 

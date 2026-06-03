@@ -270,7 +270,7 @@ const styles = StyleSheet.create({
     height: 1,
     maxWidth: "100%",
     width: 1000,
-    backgroundColor: "#334155",
+    backgroundColor: "#D1D5DB",
   },
 
   orText: {

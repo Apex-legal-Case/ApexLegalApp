@@ -120,22 +120,22 @@ const LoginScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { 
+  container: {
     flex: 1,
-     backgroundColor: COLORS.white
-     },
+    backgroundColor: COLORS.white,
+  },
 
-  content: { 
-    flex: 1, 
-    padding: 24, 
-    alignItems: "center"
- },
+  content: {
+    flex: 1,
+    padding: 24,
+    alignItems: "center",
+  },
 
-  header: { 
-    alignItems: "center", 
+  header: {
+    alignItems: "center",
     marginTop: 20,
-     marginBottom: 40 
-    },
+    marginBottom: 40,
+  },
 
   flexbox: {
     flexDirection: "row",
@@ -187,8 +187,8 @@ const styles = StyleSheet.create({
   },
 
   form: {
-     width: "100%"
-     },
+    width: "100%",
+  },
 
   label: {
     fontSize: 12,
@@ -209,16 +209,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 
-  row: { 
+  row: {
     flexDirection: "row",
-     justifyContent: "space-between"
-},
+    justifyContent: "space-between",
+  },
 
-  forgotText: { 
-    fontSize: 12, 
+  forgotText: {
+    fontSize: 12,
     fontWeight: "bold",
-     color: COLORS.text
-     },
+    color: COLORS.text,
+  },
 
   passwordContainer: {
     flexDirection: "row",
@@ -238,11 +238,11 @@ const styles = StyleSheet.create({
     width: "100%",
   },
 
-  flexInput: { 
-    flex: 1, 
-    height: 50, 
-    fontSize: 16 
-},
+  flexInput: {
+    flex: 1,
+    height: 50,
+    fontSize: 16,
+  },
 
   signInButton: {
     backgroundColor: COLORS.primary,
@@ -252,11 +252,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  signInButtonText: { 
+  signInButtonText: {
     color: "white",
-     fontSize: 18, f
-     ontWeight: "bold" 
-    },
+    fontSize: 18,
+    fontWeight: "bold",
+  },
 
   dividerRow: {
     flexDirection: "row",
@@ -291,15 +291,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  googleiconbox: { 
-    height: 18, 
-    width: 18 
-},
+  googleiconbox: {
+    height: 18,
+    width: 18,
+  },
 
-  googleicon: { 
-    height: 18, 
-    width: 18
- },
+  googleicon: {
+    height: 18,
+    width: 18,
+  },
 
   checkboxContainer: {
     flexDirection: "row",
@@ -323,9 +323,9 @@ const styles = StyleSheet.create({
     borderColor: COLORS.primary,
   },
 
-  checkboxLabel: { 
-    fontWeight: 300 
-},
+  checkboxLabel: {
+    fontWeight: 300,
+  },
 
   googleText: {
     marginLeft: 12,

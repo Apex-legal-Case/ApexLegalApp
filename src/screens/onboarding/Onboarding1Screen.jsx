@@ -1,4 +1,5 @@
 import { Ionicons } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 import {
   Image,
   SafeAreaView,
@@ -10,6 +11,7 @@ import {
 } from "react-native";
 
 const Onboarding1Screen = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
@@ -40,7 +42,10 @@ const Onboarding1Screen = () => {
           and legal-grade accuracy.
         </Text>
 
-        <TouchableOpacity style={styles.primaryButton}>
+        <TouchableOpacity
+          style={styles.primaryButton}
+          onPress={() => router.push("/onboarding-second")}
+        >
           <Text style={styles.buttonText}>START FIRM SETUP</Text>
           <Ionicons name="arrow-forward" size={20} color="white" />
         </TouchableOpacity>

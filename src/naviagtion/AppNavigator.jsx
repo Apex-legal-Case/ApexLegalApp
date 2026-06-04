@@ -13,6 +13,8 @@ const AppNavigator = () => {
     >
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="Onboarding1" component={Onboarding1Screen} />
+      <Stack.Screen name="Onboarding2" component={Onboarding2Screen} />
+      <Stack.Screen name="Onboarding3" component={Onboarding3Screen} />
     </Stack.Navigator>
   );
 };

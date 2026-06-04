@@ -1,19 +1,21 @@
 import { Ionicons } from "@expo/vector-icons";
+import { useRouter } from "expo-router";
 import { useState } from "react";
 import {
-    Image,
-    KeyboardAvoidingView,
-    Platform,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  Image,
+  KeyboardAvoidingView,
+  Platform,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { COLORS } from "../../constants/theme";
 
 const LoginScreen = () => {
+  const router = useRouter();
   const [isChecked, setIsChecked] = useState(false);
   const [isPasswordSecure, setIsPasswordSecure] = useState(true);
   return (
@@ -93,7 +95,10 @@ const LoginScreen = () => {
               </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.signInButton}>
+            <TouchableOpacity
+              style={styles.signInButton}
+              onPress={() => router.push("/onboarding-start")}
+            >
               <Text style={styles.signInButtonText}>Sign In</Text>
             </TouchableOpacity>
           </View>

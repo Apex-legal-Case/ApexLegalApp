@@ -2,14 +2,14 @@ import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import { useState } from "react";
 import {
-    SafeAreaView,
-    ScrollView,
-    StatusBar,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  SafeAreaView,
+  ScrollView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 const Onboarding2Screen = ({ navigation }) => {
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   continueButton: {
-    backgroundColor: "#3B82F6",
+    backgroundColor: "#1D4ED8",
     height: 50,
     width: 150,
     borderRadius: 6,

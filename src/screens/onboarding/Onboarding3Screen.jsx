@@ -2,13 +2,13 @@ import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import { useState } from "react";
 import {
-    Image,
-    SafeAreaView,
-    StatusBar,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  Image,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { COLORS } from "../../constants/theme";
 
@@ -91,7 +91,7 @@ const Onboarding3Screen = () => {
 
             <TouchableOpacity
               style={styles.nextButton}
-              onPress={() => router.push("/security-setup")}
+              onPress={() => router.push("/onboarding-fourth")}
             >
               <Text style={styles.nextButtonText}>Next</Text>
               <Ionicons name="arrow-forward" size={18} color="white" />
